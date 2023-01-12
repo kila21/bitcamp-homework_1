@@ -1,11 +1,13 @@
 import './App.css'
+import QR from './components/qr/QR'
 
 function App() {
 
   return (
-    <div>
-      Welcome!
-    </div>
+    <div className='App'>
+      <QR />
+   </div>
+      
   )
 }
 
